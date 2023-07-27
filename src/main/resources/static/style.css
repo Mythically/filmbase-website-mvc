@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #222 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/*label {*/
+/*    display: block;*/
+/*    margin-bottom: 0.5rem;*/
+/*}*/
+h2 {
+    height: min-content;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+th, td {
+    color: white;
+}
+input[type="text"],
+input[type="number"],
+textarea#review {
+    color: white;
+    background-color : #000;
+
+}
+form {
+    width: 33%;
+}
+form[type="button"] {
+    width: 100%;
+}
+.dark-mode {
+
+    color: white;
+    background-color: #222;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #888;
+}
+
+button[type="submit"] {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #444;
+}
+#form-inline, .btn-btn-primary {
+    display: inline-block;
+    float: right;
+}
+.header {
+    display: inline-block;
+    background-color: #333;
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+.header h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+.header .navigation {
+    display: inline-block;
+    float: right;
+}
+
+.header .navigation li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header .navigation li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .navigation #search-input {
+    display: inline-block;
+    float: right;
+}
+#searchBar {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.header h1 sup {
+    font-size: 8px;
+}
